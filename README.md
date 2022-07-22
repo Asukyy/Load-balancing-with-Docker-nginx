@@ -7,8 +7,8 @@ Create three folder, one for nginx, and one for each app were you can put inside
 
 Docker for nginx:
 
-FROM nginx
-RUN rm /etc/nginx/conf.d/default.conf
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+FROM nginx<br />
+RUN rm /etc/nginx/conf.d/default.conf<br />
+COPY nginx.conf /etc/nginx/conf.d/default.conf<br />
 
 
